@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backround"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/esquinas_redondeadas_verde"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ejercicio_verde"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/app"
+            android:textSize="17sp"
+            android:typeface="serif"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/servicios"
+            android:layout_width="100dp"
+            android:layout_height="135dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/esquinas_redondeadas_blanco"
+            android:elevation="7dp"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circulo_rosa_bajo"
+                android:src="@drawable/pesa"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="@string/servicios"
+                android:textSize="17sp"
+                android:typeface="serif"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/clientes"
+            android:layout_width="100dp"
+            android:layout_height="135dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/esquinas_redondeadas_blanco"
+            android:elevation="7dp"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circulo_azul_bajo"
+                android:src="@drawable/mujer"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="@string/clientes"
+                android:textSize="17sp"
+                android:typeface="serif"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/pagos"
+            android:layout_width="100dp"
+            android:layout_height="135dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/esquinas_redondeadas_blanco"
+            android:elevation="7dp"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circulo_naranja_bajo"
+                android:src="@drawable/pago"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="@string/pagos"
+                android:textSize="17sp"
+                android:typeface="serif"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/registros"
+            android:layout_width="100dp"
+            android:layout_height="135dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/esquinas_redondeadas_blanco"
+            android:elevation="7dp"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circulo_verde_bajo"
+                android:src="@drawable/registro"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="@string/registros"
+                android:textSize="17sp"
+                android:typeface="serif"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

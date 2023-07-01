@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Gestión de servicos de entrenamiento</string>
+    <string name="app">GESTIÓN DE SERVICIOS DE ENTRENAMIENTO</string>
+    <string name="servicios">Servicios</string>
+    <string name="clientes">Clientes</string>
+    <string name="pagos">Pagos</string>
+    <string name="registros">Registros</string>
+    <string name="modalidad">Modalidades de Pago</string>
+    <string name="dia">Día</string>
+    <string name="semana">Semana</string>
+    <string name="mes">Mes</string>
+    <string name="precio">Precio</string>
+    <string name="registro_ser">Registra un servicio</string>
+    <string name="editar_ser">Edita tu servicio</string>
+    <string name="nombre_ser">Nombre del servicio</string>
+    <string name="descripcion_ser">Descripción del servicio</string>
+    <string name="registro_mod">Registra una modalidad de pago</string>
+    <string name="modifica_mod">Edita una modalidad de pago</string>
+    <string name="precio_mod">Ingresa el precio</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidoM">Apellido Materno</string>
+    <string name="apellidoP">Apellido Paterno</string>
+    <string name="edad"> Edad </string>
+    <string name="telefono">Telefono</string>
+    <string name="correo"> Email </string>
+    <string name="guardar"> Guardar </string>
+    <string name="cancelar"> Cancelar </string>
+    <string name="peso"> Peso </string>
+    <string name="estatura"> Estatura </string>
+    <string name="padecimiento"> Padecimiento médico </string>
+    <string name="medicacion"> Medicacion </string>
+    <string name="presion"> Presión arterial </string>
+    <string name="estado"> Estado</string>
+    <string name="colonia"> Colonia </string>
+    <string name="cp"> codigo postal </string>
+    <string name="personal"> Datos personales </string>
+    <string name="medicos"> Datos médicos </string>
+    <string name="contacto"> Contacto </string>
+    <string name="ubicacion"> Ubicación </string>
+    <string name="editar"> Editar </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

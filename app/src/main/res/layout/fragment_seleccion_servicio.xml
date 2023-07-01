@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/esquinas_redondeadas_blanco"
+    android:orientation="vertical"
+    tools:context=".views.subscripciones.SeleccionServicioFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Selecciona un servicio"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:background="@drawable/esquinas_superiores_redondeadas_verde"
+        />
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/buscarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/esquinas_redondeadas_2"
+        android:layout_margin="10dp"
+        android:elevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:listitem="@layout/item_select_servicio"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>

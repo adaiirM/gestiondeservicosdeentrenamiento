@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="7dp"
+    android:background="@drawable/esquinas_redondeadas_blanco"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/id_element"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="ejemplo"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/asentamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="ejemplo"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/municipio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="ejemplo"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="ejemplo"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="ejemplo"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/cp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="ejemplo"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:padding="2dp"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.UnicacionFragment"
+    android:layout_margin="50dp"
+    android:background="@drawable/esquinas_redondeadas_blanco">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Selecciona tu ubicacion"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:background="@drawable/esquinas_superiores_redondeadas_verde"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_informacion"
+        android:scrollbars="vertical"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
